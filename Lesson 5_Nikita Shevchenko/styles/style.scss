@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #291216;
+    color: #577dfb;
+    font-family: arial;
+}
+
+h1{
+    text-align: right;
+}
+
+
+.flex_container{
+    height: 800px;
+    display: flex;
+    border: 2px solid;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.flex_item{
+    font-size: 80px;
+    border: 2px solid #577dfb;
+    //margin: 10px;
+    padding: 30px;
+    height: 100px;
+    width: 100px;
+}
